@@ -47,15 +47,16 @@ print("Exercicio 4")
 
 
 def func4(n1):
-    for number in range(n1 + 1):
-        if number % 3 == 0 and number % 5 == 0:
-            print("FizzBuzz")
-        elif number % 3 == 0:
-            print("Fizz")
-        elif number % 5 == 0:
-            print("Buzz")
-        else:
-            print(number)
+    if n1 % 3 == 0 and n1 % 5 == 0:
+        return "FizzBuzz"
+    elif n1 % 3 == 0:
+        return "Fizz"
+    elif n1 % 5 == 0:
+        return "Buzz"
+    else:
+        return n1
 
-
-func4(100)
+n1 = 101
+for number in range(n1):
+    fizz_buzz = func4(number)
+    print(fizz_buzz)
