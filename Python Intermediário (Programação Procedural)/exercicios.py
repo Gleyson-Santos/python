@@ -56,7 +56,7 @@ def func4(n1):
     else:
         return n1
 
-n1 = 101
-for number in range(n1):
+
+for number in range(101):
     fizz_buzz = func4(number)
     print(fizz_buzz)
