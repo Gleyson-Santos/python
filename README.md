@@ -3,4 +3,4 @@
 
 Arquivado criado para seguir o curso de Python 3 do Luiz Otavaio Miranda
 https://www.udemy.com/course/python-3-do-zero-ao-avancado
-![Tux, the Linux mascot](./logo.png)
+[Python Logo](./logo.png)
