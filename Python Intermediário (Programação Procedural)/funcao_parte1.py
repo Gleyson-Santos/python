@@ -3,7 +3,7 @@ Funções - def em Python (Parte 1)
 """
 
 
-def funcao(msg, nome):
+def funcao(msg='Hello', nome=''):
     print(msg + nome)
 
 
