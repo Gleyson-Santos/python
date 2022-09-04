@@ -18,5 +18,10 @@ def dumb():
     return f
 
 
-var = dumb()('Valor passado para função f')
-print(var)
+var = dumb()
+print(id(var))
+print(id(f))
+if var == f:
+    print("Var é igual a f")
+else:
+    print("Var não é igual a f")
