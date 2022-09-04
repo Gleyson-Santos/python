@@ -4,7 +4,7 @@ Funções - def em Python (Parte 1)
 
 
 def funcao(msg, nome):
-    print(msg)
+    print(msg + nome)
 
 
 funcao('Hello World', "Gleyson")
