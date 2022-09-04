@@ -7,4 +7,4 @@ def funcao(msg='Hello', nome=''):
     print(msg + ' ' + nome)
 
 
-funcao('Hello World', "Gleyson")
+funcao(msg='Hello World', nome="Gleyson")
