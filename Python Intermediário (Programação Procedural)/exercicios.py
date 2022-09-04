@@ -31,12 +31,19 @@ def func3(n1, percentual):
     return n1 + (n1 * percentual / 100)
 
 
-x = func3(100, 10)
+x = func3(50, 10)
+y = func3(100, 10)
+z = func3(10, 10)
+k = func3(15, 100)
 print(f"Exercicio 3: {x}")
+print(f"Exercicio 3: {y}")
+print(f"Exercicio 3: {z}")
+print(f"Exercicio 3: {k}")
 
 """
 4 - Fizz Buzz
 """
+print("Exercicio 4")
 
 
 def func4(n1):
