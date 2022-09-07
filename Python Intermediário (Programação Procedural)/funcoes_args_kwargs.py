@@ -5,7 +5,8 @@ Funções (def) em Python - *args **args
 
 def func(*args):
     print(args)
+    print(args[0])
+    print(args[-1])
 
 
-lista = [1, 2, 3, 4, 5]
-print(*lista, sep='/*')
+func(1, 2, 3, 4, 5)
