@@ -3,7 +3,8 @@ Funções (def) em Python - *args **args
 """
 
 
-def func(*args):
+def func(*args, **kwargs):
+    args = list(args)
     print(args)
     print(args[0])
     print(args[-1])
