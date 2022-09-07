@@ -4,10 +4,9 @@ Funções (def) em Python - *args **args
 
 
 def func(*args, **kwargs):
-    args = list(args)
     print(args)
-    print(args[0])
-    print(args[-1])
+    print(kwargs['nome'], kwargs['sobrenome'])
 
-
-func(1, 2, 3, 4, 5)
+lista = [1, 2, 3, 4, 5]
+lista2 = [10, 20, 30, 40, 50]
+func(*lista, *lista2, nome='Gleyson', sobrenome='Santos')
