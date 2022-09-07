@@ -6,7 +6,9 @@ def func():
 
 
 def func2():
-    variavel = 'outra variavel'
+    # variavel = 'outra valor'
+    global variavel
+    variavel = 'outra valor'
     print(variavel)
 
 
