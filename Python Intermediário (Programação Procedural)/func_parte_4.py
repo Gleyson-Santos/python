@@ -1,8 +1,16 @@
 variavel = 'valor'
 
 
-def func():
+def func(arg):
     print(variavel, 'func')
+    arg = 'mudando valor'
+    return arg
+
+
+variavel = func('valor')
+
+
+print(variavel)
 
 
 def func2():
@@ -12,6 +20,5 @@ def func2():
     print(variavel, 'func2')
 
 
-func()
 func2()
 
