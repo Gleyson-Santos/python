@@ -1,7 +1,15 @@
-d1 = {
-    'str': 'valor',
-    123: 'Outro Valor',
-    (1, 2, 3, 4): 'Tupla',
+clientes = {
+    'usuario1': {
+        'nome': 'Luiz',
+        'sobrenome': 'Otavio',
+    },
+    'cliente2': {
+        'nome': 'João',
+        'sobrenome': 'Moreira',
+    },
 }
-for v in d1.values():
-    print(v)
+
+for clientes_k, clientes_v in clientes.items():
+    print(f"Exibindo {clientes_k}")
+    for dados_k, dados_v in clientes_v.items():
+        print(f'\t{dados_k} = {dados_v}')
