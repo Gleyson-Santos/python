@@ -1,6 +1,10 @@
-d1 = {1: 123, 2: 456}
+d1 = {
+    'str' : 'valor',
+    123 : 'Outro Valor',
+    (1, 2, 3, 4) : 'Tupla',
+}
 
-print(d1)
-d1[3] = 789
-print(d1)
+if d1.get('nomedachave') is not None:
+    print(d1.get('nomedachave'))
 
+print(123)
