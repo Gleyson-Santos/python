@@ -7,6 +7,10 @@ clientes = {
         'nome': 'João',
         'sobrenome': 'Moreira',
     },
+    'cliente3': {
+        'nome': 'Maria',
+        'sobrenome': 'Pereira',
+    },
 }
 
 for clientes_k, clientes_v in clientes.items():
