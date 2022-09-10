@@ -3,8 +3,6 @@ d1 = {
     123 : 'Outro Valor',
     (1, 2, 3, 4) : 'Tupla',
 }
+del d1['str']
+print(d1)
 
-if d1.get('nomedachave') is not None:
-    print(d1.get('nomedachave'))
-
-print(123)
