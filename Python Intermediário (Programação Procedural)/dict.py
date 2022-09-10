@@ -3,5 +3,5 @@ d1 = {
     123: 'Outro Valor',
     (1, 2, 3, 4): 'Tupla',
 }
-for k, y in enumerate(d1):
-    print(k, y)
+for v in d1.values():
+    print(v)
