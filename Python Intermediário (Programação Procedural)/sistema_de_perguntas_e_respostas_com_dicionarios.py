@@ -3,14 +3,18 @@ perguntas = {
         'pergunta': 'Quanto é 2 + 2? ',
         'reposta': {'a': '1', 'b': '4', 'c': '5', },
         'reposta_certa': 'b', },
+
     'Pergunta 2': {
         'pergunta': 'Quanto é 3 + 2? ',
         'reposta': {'a': '1', 'b': '4', 'c': '5', },
-        'reposta_certa': 'c', },
+        'reposta_certa': 'c',
+    },
+
     'Pergunta 3': {
         'pergunta': 'Quanto é 13 + 2? ',
         'reposta': {'a': '1', 'b': '4', 'c': '15', },
-        'reposta_certa': 'c', },
+        'reposta_certa': 'c',
+    },
 }
 
 resposta_certa = 0
