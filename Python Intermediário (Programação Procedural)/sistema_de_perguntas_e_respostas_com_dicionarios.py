@@ -2,7 +2,8 @@ perguntas = {
     'Pergunta 1': {
         'pergunta': 'Quanto é 2 + 2? ',
         'reposta': {'a': '1', 'b': '4', 'c': '5', },
-        'reposta_certa': 'b', },
+        'reposta_certa': 'b',
+    },
 
     'Pergunta 2': {
         'pergunta': 'Quanto é 3 + 2? ',
