@@ -20,7 +20,11 @@ symetric_difference ^ (Elementos que estão nos dois sets, mas não em ambos)
 # s1.update(s)
 #
 # print(s1)
+# union
 s1 = {1, 2, 3, 4, 5}
 s2 = {1, 2, 3, 6, 7, 8, 9, 10}
-s3 = s1 | s2
+# s3 = s1 | s2
+# difference
+# s3 = s2 - s1
+s3 = s2 ^ s1
 print(s3)
