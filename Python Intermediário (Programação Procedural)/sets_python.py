@@ -26,5 +26,6 @@ s2 = {1, 2, 3, 6, 7, 8, 9, 10}
 # s3 = s1 | s2
 # difference
 # s3 = s2 - s1
+# symmetric difference
 s3 = s2 ^ s1
 print(s3)
