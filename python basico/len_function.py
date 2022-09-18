@@ -1,5 +1,5 @@
 """
-len() conta a quantidade de characteres em um string ou lista
+len() conta a quantidade de characteres em uma string ou lista
 não funciona com int, float ou bool
 """
 
