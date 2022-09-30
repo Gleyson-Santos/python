@@ -13,23 +13,22 @@ if numero_inteiro.isdigit():
 else:
     print('Não é um número inteiro!!!')
 """
-
-"""
+'''
 Faça um programa que pergunte a hora ao usuário e baseando-se no horário
 descrito, exiba a saudação apropriada. Ex.
 Bom dia 0-11, Boa Tarde 12-17 e Boa noite 18-23.
-"""
+'''
 horario = input("Digite um horario\n")
 if horario.isdigit():
     horario = int(horario)
     if horario > 0 < 24:
-        print('Bom dia' if horario < 11
-              else 'Boa tarde' if horario < 17
+        print('Bom dia' if horario < 12
+              else 'Boa tarde' if horario < 18
               else 'Boa Noite')
     else:
         print('Digite um horario entre 0 e 23')
-"""
+'''
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou
 menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 "Seu nome pe normal"; maior que 6 escreva "Seu nome é muito grande".
-"""
+'''
