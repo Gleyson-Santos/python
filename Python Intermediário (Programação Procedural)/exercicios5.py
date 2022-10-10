@@ -12,9 +12,11 @@ lista_b = [1, 2, 3, 4]
 ======================resultado
 lista_soma = [2, 4, 6, 8]
 """
-lista_a = [1, 2, 3, 4, 5, 6, 7]
-lista_b = [1, 2, 3, 4]
-lista_soma = [(x+y) for x, y in zip(lista_a, lista_b)]
+from itertools import zip_longest
+
+lista_a = [1, 2, 3, 44, 5, 6, 7]
+lista_b = [10, 2, 3, 4]
+lista_soma = [(x+y) for x, y in zip_longest(lista_a, lista_b, fillvalue=0)]
 # for x, y in zip(lista_a, lista_b):
 #     lista_soma.append(x + y)
 print(lista_soma)
