@@ -4,8 +4,8 @@ count - itertools
 
 from itertools import count
 
-contador = count(start=50, step=-2)
-for valor in contador:
-    print(valor)
-    if valor < 0:
-        break
+contador = count()
+lista1 = ['Luiz', 'João', 'Maria']
+lista2 = zip(contador, lista1)
+
+print(list(lista2))
