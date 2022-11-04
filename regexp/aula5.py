@@ -12,9 +12,8 @@ texto = '''
 # print(re.findall(r'((?:[0-9]{3}\.){2}[0-9]{3}-[0-9]{2})', cpf))
 
 tags = re.findall(r'(<([dpiv]{1,3})>.+?</\2>)', texto, flags=re.I)
-# pprint(tags)
-
-for tag in tags:
-    um, dois = tag
-    pprint(um)
-
+pprint(tags)
+#
+# for tag in tags:
+#     um, dois = tag
+#     pprint(um)
