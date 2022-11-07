@@ -1,3 +1,4 @@
+
 # Meta caracteres:
 # ^ -> começa com
 # $ -> termina com
