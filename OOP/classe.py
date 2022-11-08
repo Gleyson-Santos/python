@@ -12,6 +12,20 @@ class Cliente(Pessoa):
     def comprar(self):
         print(f'{self.nome_clase} esta comprando ...')
 
+    def falar(self):
+        print('Estou em cliente')
+
+
+class ClienteVip(Cliente):
+    def __init__(self, nome, idade, sobrenome):
+        Pessoa.__init__(self, nome, idade)
+        self.sobrenome = sobrenome
+
+    def falar(self):
+        Pessoa.falar(self)
+        Cliente.falar(self)
+        print('Cliente vip esta falando')
+
 
 class Aluno(Pessoa):
     def estudar(self):
